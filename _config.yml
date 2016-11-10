@@ -74,7 +74,7 @@ social:
 analytics:
   provider               : "google"
   google:
-    tracking_id          : "UA-8416433-3"
+    tracking_id          : "UA-87129188-1"
 
 
 # Site Author
