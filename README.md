@@ -1,4 +1,6 @@
+## Domain of Azrael technology blog
 
+This is my blog for coding in general and it is at https://pcast01.github.io/.
 
 
 ## License
