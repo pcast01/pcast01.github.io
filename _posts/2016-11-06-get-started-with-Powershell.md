@@ -7,6 +7,18 @@ header:
 tags: [Powershell]
 ---
 
+> If you repeat it, Powershell it.
+
+I like making my everyday job easier so scripting repeat things I do every day is key for me. I found that if I am typing something more than once a day I might as well create a script to automate this process. 
+Some ways that I use Powershell everyday is for instance: 
+__Clearing internet cache, Lookups in SQL databases, Run Stored Procedures, Connect RDP automatically, bring text into my clipboard, Search multiple text files, and the list goes on and on.__
+
+If are familiar with the .Net Framework you can also tap into any commands available on Windows. So basically all windows machines by default have Powershell built into it. 
+
+Currently there are 5 versions of Powershell and to check what version you have on your machine just go into Powershell and run the command $PSVersionTable and the Version is your version number of Powershell.
+
+_*Powershell is also available in Linux._
+
 First of all you can get to Powershell in many ways.
 
 Using Windows 10: 
@@ -14,6 +26,8 @@ Using Windows 10:
 
 The Powershell ISE is Microsoft's Powershell default script IDE. 
 ![powershell ISE]({{ site.url }}/assets/images/powershellIDE.png)
+The top part is for script files that you can test out your script and then get the results on the bottom. You can customize the layout any way you like. 
+Next, if you are going to be creating scripts then you should set the security of Powershell to allow you to run scripts.
 
 ## First things first
 If you plan on creating any scripts the first command you should execute inside Powershell is this one.
