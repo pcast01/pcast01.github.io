@@ -19,10 +19,10 @@ Currently there are 5 versions of Powershell and to check what version you have 
 
 _*Powershell is also available in Linux._
 
-First of all you can get to Powershell in many ways.
+## How to find Powershell on your computer
 
-Using Windows 10: 
-    Click Start button and start typing Powershell and you will see many different types. The best one to go start with in my opinion is Powershell ISE.
+Using Windows 10, 8, 7: 
+    Click Start button and start typing Powershell and you will see many different types. The best one to start with in my opinion is Powershell ISE.
 
 The Powershell ISE is Microsoft's Powershell default script IDE. 
 ![powershell ISE]({{ site.url }}/assets/images/powershellIDE.png)
