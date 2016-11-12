@@ -5,7 +5,9 @@ excerpt: ""
 header: 
         overlay_image: /assets/images/background.jpg
 tags: [Powershell]
+
 ---
+{{ page.date | date: '%B %d, %Y' }}
 
 > If you repeat it, Powershell it.
 
