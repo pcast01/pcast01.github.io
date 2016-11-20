@@ -27,14 +27,14 @@ Here is an example of a function that opens up a text file using notepad and the
 {% endhighlight %}
 
 When you click the play button on the top your function executes inside the code window. Once its ran then it's loaded in PowerShell for use again with just using the name of the function which is Notes.
-<a href="{{ site.url }}/assets/images/PowerShellIDE_NotesFunction-min.png" target="_blank">
-![PowerShell ISE]({{ site.url }}/assets/images/PowerShellIDE_NotesFunction-min.png)</a>
-[Enlarge image]({{ site.url }}/assets/images/PowerShellIDE_NotesFunction-min.png)
+<a href="{{ site.url }}/assets/images/PowershellIDE_NotesFunction-min.png" target="_blank">
+![PowerShell ISE]({{ site.url }}/assets/images/PowershellIDE_NotesFunction-min.png)</a>
+[Enlarge image]({{ site.url }}/assets/images/PowershellIDE_NotesFunction-min.png)
 
 Now type Notes into the command window and then Notepad opens up with your document.
 <a href="{{ site.url }}/assets/images/PowerShellIDE_NotesFunction3-min.png" target="_blank">
-![PowerShell ISE]({{ site.url }}/assets/images/PowerShellIDE_NotesFunction3-min.png)</a>
-[Enlarge image]({{ site.url }}/assets/images/PowerShellIDE_NotesFunction3-min.png)
+![PowerShell ISE]({{ site.url }}/assets/images/PowershellIDE_NotesFunction3-min.png)</a>
+[Enlarge image]({{ site.url }}/assets/images/PowershellIDE_NotesFunction3-min.png)
 
 ## Functions with parameters
 
