@@ -2,7 +2,7 @@
 layout: single
 author_profile: true
 permalink: /about/
-excerpt: 
+excerpt: About Azrael
 header:
         overlay_image: /assets/images/aboutPic.jpg
 ---
