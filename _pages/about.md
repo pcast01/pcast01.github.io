@@ -2,11 +2,13 @@
 layout: single
 author_profile: true
 permalink: /about/
-
+excerpt: 
+header:
+        overlay_image: /assets/images/aboutPic.jpg
 ---
 
 Currently I am working as a .Net Full Stack Developer with a passion to improve technology in order to achieve excellence. 
-I have a Bachelors in Computer Science and have persued knowledge of technology all my life and love to automate processes and creatively solve problems.
+I have a Bachelors in Computer Science and have pursued knowledge of technology all my life and love to automate processes and creatively solve problems.
 
 ## Experience
 
@@ -64,4 +66,4 @@ __Automation Expert__ - Stream-lined products using Visual Basic to connect mult
 Server databases web-enabling them using Active Server Pages (ASP), significantly decreasing processing
 time and increasing accuracy.
 
-__Computer Technician__ - Provided IT support on variety of IT tasks to include hardware fixes and software troubl.
+__Computer Technician__ - Provided IT support on variety of IT tasks to include hardware fixes and software troubleshooting.
