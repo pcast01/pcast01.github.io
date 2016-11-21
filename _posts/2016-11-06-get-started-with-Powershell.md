@@ -122,7 +122,7 @@ This is the Math class using the method pow which takes two integers and the fir
 
 ## Powershell basic cmdlets to get started with
 
-The three basic cmdlets to get started with right ways are:
+The three basic cmdlets to get started with right away are:
 
 1. [Get-Command](http://ss64.com/ps/get-command.html)
 2. [Get-Help](http://ss64.com/ps/get-help.html)
