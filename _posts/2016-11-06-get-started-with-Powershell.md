@@ -69,7 +69,7 @@ Once in your profile file you can add powershell code to run every time you firs
 
 This allows me to select a drive or location and navigate there quickly. Such as this one called desktop and it takes me directly to my desktop.
 {% highlight Powershell %}
-       cd desktop
+       cd desktop:
 {% endhighlight %}
 
 ## Basic Syntax
@@ -150,7 +150,7 @@ Or you can lookup a specific command like this gci which is an alias for [Get-Ch
        Get-Help gci
 {% endhighlight %}
 ![Get-Help GCI]({{ site.url }}/assets/images/get_helpGCI-min.png)
-As you can see the [Get-Help](http://ss64.com/ps/get-help.html) will also include examples of how to use commands in powershell. I find this extremely helpful when I need a quick example of how to correctly execute a command.
+As you can see the [Get-Help](http://ss64.com/ps/get-help.html) gives you the description and syntax. I find this extremely helpful when I need a quick example of how to correctly execute a command. You can also use parameter -Full to display the entire help file of a command.
 
 3. __Get-Member__ - This command gives us information about the object's properties and Methods.
 For an example of how this works lets go back to our earlier example:
