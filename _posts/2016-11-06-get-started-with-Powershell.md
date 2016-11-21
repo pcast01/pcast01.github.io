@@ -32,13 +32,14 @@ The top part is for script files that you can test out your script and then get 
 Next, if you are going to be creating scripts then you should set the security of Powershell to allow you to run scripts.
 
 ## First things first
-If you plan on creating any scripts the first command you should execute inside Powershell is this one.
+If you plan on creating any script files the first command you should execute inside Powershell is this one.
 {% highlight Powershell %}
     Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 {% endhighlight %}
 Powershell also allows you to use the up arrow to get the last command executed.
 
 By default, Powershell doesn't allow outright execution of ps1 files(scripts). So you must tell Powershell that the security must allow the current user to execute scripts.
+This is not mandatory when first learning Powershell and it is setup so that you cannot mess up anything in the Operating system by default.
 
 ## Powershell Profiles
 Each Powershell window that you open has an associated profile that is a file located in various places inside Windows.
@@ -112,11 +113,52 @@ You can also use it like a calculator
        2
 {% endhighlight %}
 
-You also have access to .Net methods inside powershell.
+You also have access to .Net methods inside Powershell.
 {% highlight Powershell %}
        [Math]::pow(2,2)
        4
 {% endhighlight %}
 This is the Math class using the method pow which takes two integers and the first one is value and the second is the power.
+
+## Powershell basic cmdlets to get started with
+
+The three basic cmdlets to get started with right ways are:
+
+1. [Get-Command](http://ss64.com/ps/get-command.html)
+2. [Get-Help](http://ss64.com/ps/get-help.html)
+3. [Get-Member](http://ss64.com/ps/get-member.html)
+
+The basic syntax of all Powershell commands follow a pattern. That pattern is Verb-Noun. So you can see by applying this to these three commands its Get and then whatever it is you are using.
+
+1. __Get-Command__ - This will get all the commands available to you in your current session.
+![Get-Command]({{ site.url }}/assets/images/get_command-min.png)
+This is useful because now you know what commands are available to you.
+
+To search on a specific verb you can use this command:
+{% highlight Powershell %}
+       Get-Command -verb get
+{% endhighlight %}
+![Get-Command by Verb]({{ site.url }}/assets/images/get_commandVerb-min.png)
+
+2. __Get-Help__ - This is especially helpful to get the exact properties of a command that powershell has.
+To get all help then type: 
+{% highlight Powershell %}
+       Get-Help *
+{% endhighlight %}
+Or you can lookup a specific command like this gci which is an alias for [Get-ChildItem](http://ss64.com/ps/get-childitem.html) which is Powershell's version of dir in Shell)
+{% highlight Powershell %}
+       Get-Help gci
+{% endhighlight %}
+![Get-Help GCI]({{ site.url }}/assets/images/get_helpGCI-min.png)
+As you can see the [Get-Help](http://ss64.com/ps/get-help.html) will also include examples of how to use commands in powershell. I find this extremely helpful when I need a quick example of how to correctly execute a command.
+
+3. __Get-Member__ - This command gives us information about the object's properties and Methods.
+For an example of how this works lets go back to our earlier example:
+{% highlight Powershell %}
+    $count = 1
+    Get-Member -InputObject $count
+{% endhighlight %}
+The output shows us that the variable we created is an Int32 variable.
+![Get-Member close $count]({{ site.url }}/assets/images/get_member_count_close-min.png)
 
 This is just a quick preview of what Powershell is capable of next I want to delve into creating functions which is a great way to put tasks into one easy command to execute your scripts.
