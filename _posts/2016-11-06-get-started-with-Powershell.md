@@ -17,7 +17,7 @@ __Clearing internet cache, Lookups in SQL databases, Run Stored Procedures, Conn
 
 If are familiar with the .Net Framework you can also tap into any commands available on Windows. So basically all windows machines by default have Powershell built into it. 
 
-Currently there are 5 versions of Powershell and to check what version you have on your machine just go into Powershell and run the command $PSVersionTable and the Version is your version number of Powershell.
+Currently there are 6 versions of Powershell and to check what version you have on your machine just go into Powershell and run the command $PSVersionTable and the Version is your version number of Powershell.
 
 _*Powershell is also available in Linux._
 
