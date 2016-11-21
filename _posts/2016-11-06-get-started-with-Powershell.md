@@ -140,12 +140,12 @@ To search on a specific verb you can use this command:
 {% endhighlight %}
 ![Get-Command by Verb]({{ site.url }}/assets/images/get_commandVerb-min.png)
 
-2. __Get-Help__ - This is especially helpful to get the exact properties of a command that powershell has.
+2. __Get-Help__ - This is especially helpful to get the exact properties of a command or variable that powershell has available.
 To get all help then type: 
 {% highlight Powershell %}
        Get-Help *
 {% endhighlight %}
-Or you can lookup a specific command like this gci which is an alias for [Get-ChildItem](http://ss64.com/ps/get-childitem.html) which is Powershell's version of dir in Shell)
+Or you can lookup a specific command like this gci which is an alias for [Get-ChildItem](http://ss64.com/ps/get-childitem.html) which is Powershell's version of dir in Shell or ls in Linux)
 {% highlight Powershell %}
        Get-Help gci
 {% endhighlight %}
