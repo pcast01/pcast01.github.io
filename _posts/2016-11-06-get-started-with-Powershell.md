@@ -3,8 +3,8 @@ layout: single
 title: Beginner's guide to PowerShell
 excerpt: ""
 header: 
-        image: /assets/images/poshRect.jpg
-        teaser: /assets/images/poshRect.jpg
+        image: /assets/images/poshBlack.jpg
+        teaser: /assets/images/poshBlack.jpg
 
 tags: [PowerShell]
 
