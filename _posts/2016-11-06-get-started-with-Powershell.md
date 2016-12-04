@@ -1,50 +1,50 @@
 ---
 layout: single
-title: Beginner's guide to Powershell
+title: Beginner's guide to PowerShell
 excerpt: ""
 header: 
-        image: /assets/images/poshBlack.jpg
-        teaser: /assets/images/poshBlack.jpg
+        image: /assets/images/poshRect.jpg
+        teaser: /assets/images/poshRect.jpg
 
-tags: [Powershell]
+tags: [PowerShell]
 
 ---
 {{ page.date | date: '%B %d, %Y' }}
 
-> If you repeat it, Powershell it.
+> If you repeat it, PowerShell it.
 
 I like making my everyday job easier so scripting repeat things I do every day is key for me. I found that if I am typing something more than once a day I might as well create a script to automate this process. 
-Some ways that I use Powershell everyday is for instance: 
+Some ways that I use PowerShell everyday is for instance: 
 __Clearing internet cache, Lookups in SQL databases, Run Stored Procedures, Connect RDP automatically, bring text into my clipboard, Search multiple text files, and the list goes on and on.__
 
-If are familiar with the .Net Framework you can also tap into any commands available on Windows. So basically all windows machines by default have Powershell built into it. 
+If are familiar with the .Net Framework you can also tap into any commands available on Windows. So basically all windows machines by default have PowerShell built into it. 
 
-Currently there are 6 versions of Powershell and to check what version you have on your machine just go into Powershell and run the command $PSVersionTable and the Version is your version number of Powershell.
+Currently there are 6 versions of PowerShell and to check what version you have on your machine just go into PowerShell and run the command $PSVersionTable and the Version is your version number of PowerShell.
 
-_*Powershell is also available in Linux._
+_*PowerShell is also available in Linux._
 
-## How to find Powershell on your computer
+## How to find PowerShell on your computer
 
 Using Windows 10, 8, 7: 
-    Click Start button and start typing Powershell and you will see many different types. The best one to start with in my opinion is Powershell ISE.
+    Click Start button and start typing PowerShell and you will see many different types. The best one to start with in my opinion is PowerShell ISE.
 
-The Powershell ISE is Microsoft's Powershell default script IDE. 
+The PowerShell ISE is Microsoft's PowerShell default script IDE. 
 ![powershell ISE]({{ site.url }}/assets/images/powershellIDE.png)
 The top part is for script files that you can test out your script and then get the results on the bottom. You can customize the layout any way you like. 
-Next, if you are going to be creating scripts then you should set the security of Powershell to allow you to run scripts.
+Next, if you are going to be creating scripts then you should set the security of PowerShell to allow you to run scripts.
 
 ## First things first
-If you plan on creating any script files the first command you should execute inside Powershell is this one.
+If you plan on creating any script files the first command you should execute inside PowerShell is this one.
 {% highlight Powershell %}
     Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser
 {% endhighlight %}
-Powershell also allows you to use the up arrow to get the last command executed.
+PowerShell also allows you to use the up arrow to get the last command executed.
 
-By default, Powershell doesn't allow outright execution of ps1 files(scripts). So you must tell Powershell that the security must allow the current user to execute scripts.
-This is not mandatory when first learning Powershell and it is setup so that you cannot mess up anything in the Operating system by default.
+By default, PowerShell doesn't allow outright execution of ps1 files(scripts). So you must tell PowerShell that the security must allow the current user to execute scripts.
+This is not mandatory when first learning PowerShell and it is setup so that you cannot mess up anything in the Operating system by default.
 
 ## Powershell Profiles
-Each Powershell window that you open has an associated profile that is a file located in various places inside Windows.
+Each PowerShell window that you open has an associated profile that is a file located in various places inside Windows.
 If you type: 
 {% highlight Powershell %}
     $profile
@@ -56,7 +56,7 @@ If you want you can put in this command to open your profile inside of Notepad.
     notepad $profile
 {% endhighlight %}
 
-Once in your profile file you can add powershell code to run every time you first start it. For instance, you can use the code below to get all the paths located in your System Environment variables and save them as PSDrives. 
+Once in your profile file you can add PowerShell code to run every time you first start it. For instance, you can use the code below to get all the paths located in your System Environment variables and save them as PSDrives. 
 ### Profile example code
 {% highlight Powershell %}
     $names = [Environment+SpecialFolder]::GetNames([Environment+SpecialFolder])
@@ -75,7 +75,7 @@ This allows me to select a drive or location and navigate there quickly. Such as
 {% endhighlight %}
 
 ## Basic Syntax
-Wikipedia has the best interpretation/definition of Powershell.
+Wikipedia has the best interpretation/definition of PowerShell.
 
 > PowerShell (including Windows PowerShell and PowerShell Core) is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and associated scripting language built on the .NET Framework.
 &mdash; Wikipedia
@@ -115,14 +115,14 @@ You can also use it like a calculator
        2
 {% endhighlight %}
 
-You also have access to .Net methods inside Powershell.
+You also have access to .Net methods inside PowerShell.
 {% highlight Powershell %}
        [Math]::pow(2,2)
        4
 {% endhighlight %}
 This is the Math class using the method pow which takes two integers and the first one is value and the second is the power.
 
-## Powershell basic cmdlets to get started with
+## PowerShell basic cmdlets to get started with
 
 The three basic cmdlets to get started with right away are:
 
@@ -130,7 +130,7 @@ The three basic cmdlets to get started with right away are:
 2. [Get-Help](http://ss64.com/ps/get-help.html)
 3. [Get-Member](http://ss64.com/ps/get-member.html)
 
-The basic syntax of all Powershell commands follow a pattern. That pattern is Verb-Noun. So you can see by applying this to these three commands its Get and then whatever it is you are using.
+The basic syntax of all PowerShell commands follow a pattern. That pattern is Verb-Noun. So you can see by applying this to these three commands its Get and then whatever it is you are using.
 
 1. __Get-Command__ - This will get all the commands available to you in your current session.
 ![Get-Command]({{ site.url }}/assets/images/get_command-min.png)
@@ -142,12 +142,12 @@ To search on a specific verb you can use this command:
 {% endhighlight %}
 ![Get-Command by Verb]({{ site.url }}/assets/images/get_commandVerb-min.png)
 
-2. __Get-Help__ - This is especially helpful to get the exact properties of a command or variable that powershell has available.
+2. __Get-Help__ - This is especially helpful to get the exact properties of a command or variable that PowerShell has available.
 To get all help then type: 
 {% highlight Powershell %}
        Get-Help *
 {% endhighlight %}
-Or you can lookup a specific command like this gci which is an alias for [Get-ChildItem](http://ss64.com/ps/get-childitem.html) which is Powershell's version of dir in Shell or ls in Linux)
+Or you can lookup a specific command like this gci which is an alias for [Get-ChildItem](http://ss64.com/ps/get-childitem.html) which is PowerShell's version of dir in Shell or ls in Linux)
 {% highlight Powershell %}
        Get-Help gci
 {% endhighlight %}
@@ -163,4 +163,4 @@ For an example of how this works lets go back to our earlier example:
 The output shows us that the variable we created is an Int32 variable.
 ![Get-Member close $count]({{ site.url }}/assets/images/get_member_count_close-min.png)
 
-This is just a quick preview of what Powershell is capable of next I want to delve into creating functions which is a great way to put tasks into one easy command to execute your scripts.
+This is just a quick preview of what PowerShell is capable of next I want to delve into creating functions which is a great way to put tasks into one easy command to execute your scripts.
