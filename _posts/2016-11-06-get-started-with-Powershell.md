@@ -3,7 +3,9 @@ layout: single
 title: Beginner's guide to Powershell
 excerpt: ""
 header: 
-        overlay_image: /assets/images/background.jpg
+        image: /assets/images/poshBlack.jpg
+        teaser: /assets/images/poshBlack.jpg
+
 tags: [Powershell]
 
 ---
