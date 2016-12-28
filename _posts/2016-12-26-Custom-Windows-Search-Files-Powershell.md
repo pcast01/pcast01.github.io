@@ -2,6 +2,9 @@
 layout: single
 title: Custom Windows File and Pattern Search in PowerShell script
 excerpt: ""
+header: 
+        image: /assets/images/poshBlue.jpg
+        teaser: /assets/images/poshBlue.jpg
 
 tags: [PowerShell]
 
