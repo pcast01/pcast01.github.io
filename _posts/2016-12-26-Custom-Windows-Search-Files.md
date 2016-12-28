@@ -52,6 +52,8 @@ $startScript = Read-Host -Prompt 'Hit enter to continue'
 
 ## Browse for folder Dialog box
 
+![BrowseForFolder]({{ site.url }}/assets/images/BrowseForFolder.png)
+
 The next part I found some code that will open the BrowseForFolder dialog windows that allows you to navigate to the folder 
 where the locations and patterns text files are located. Then it checks if both files exists if not then it exits the script.
 {% highlight PowerShell %}
