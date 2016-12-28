@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Custom Windows File and Pattern Search script
+title: Custom Windows File and Pattern Search in PowerShell script
 excerpt: ""
 
 tags: [PowerShell]
