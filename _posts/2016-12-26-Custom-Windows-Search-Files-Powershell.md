@@ -144,7 +144,7 @@ Clear-Variable -Name resultsFile
 At the end of the script I clear the two variables: file and resultsFile. Then I open the Results.txt file for review.
 
 Here are results for 2 locations with 2 search patterns: *excerpte*.jpg and *.aspx
-- so all aspx files and jpg files with excerpte in the title
+- so all aspx files and jpg files with excerpte in the title.
 {% highlight Powershell %}
 ********************************************************************
 Searching folder: C:\Temp
