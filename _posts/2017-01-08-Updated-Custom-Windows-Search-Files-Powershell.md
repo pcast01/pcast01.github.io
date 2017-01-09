@@ -151,13 +151,13 @@ The original setup of the 2 `foreach` loops were at best messy and not streamlin
     
 The new `foreach` loops. Right away the readability is greatly improved. I changed the `$folders` variable to `$AllFolders` and the same with `$patterns` to `$AllPatterns`. I also now am not using aliases as I have learned are not the best practice to use, I since have thought that I should only be using aliases in my day to day PowerShell sessions. I reduced the number asterisks by using `("*" * 68)` I also put spaces between sets of code which I believe separates its nicely and is easy on the eyes.
 
-This is the best part that benefited the most of this deep dive in my opinion. Before I got sloppy and was trying to get the script done fast as I was on a deadline. But because of this I ran `Get-ChildItem` twice and poor performance was had. Maybe not real bad since my script is small but I have seen a noticeable difference. I also didn't do my homework when studdying `Get-ChildItem` because if I did I would've known that there are two parameters that it takes that I was using after I piped the data. And those two are `-Folder` and `-Filter`. I was using `Where-Object { ($_.PSIsContainer -eq $false) -and  ( $_.Name -like "*$pattern*")`. I also get the count of the files found before I pipe the results to the `Select-Object`.
+This is the best part that benefited the most of this deep dive in my opinion. Before I got sloppy and was trying to get the script done fast as I was on a deadline. But because of this I ran `Get-ChildItem` twice and poor performance was had. Maybe not real bad since my script is small but I have seen a noticeable difference. I also didn't do my homework when studying `Get-ChildItem` because if I did I would've known that there are two parameters that it takes that I was using after I piped the data. And those two are `-Folder` and `-Filter`. I was using `Where-Object { ($_.PSIsContainer -eq $false) -and  ( $_.Name -like "*$pattern*")`. I also get the count of the files found before I pipe the results to the `Select-Object`.
 
     # Perform recurse filter search and get file count
         $Results = Get-ChildItem -Recurse -Force $folder -ErrorAction SilentlyContinue -File -Filter "*$pattern*"
         $FilesCount = $Results.Count
 
-foreach block
+Updated foreach code block
 
     foreach ($folder in $AllFolders) {
         # Write folder name to screen
