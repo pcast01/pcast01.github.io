@@ -219,4 +219,3 @@ New Code:
 Here I changed all the paths to explicitly state where everything is going instead of assuming that PowerShell is in the right directory. I also reduced the `Clear-Variable` command to one time call since I cleaned up the code earlier. If I don't clear this variable then if I run the function again it just adds to this variable and I get two sets of results in one. Finally, I explicitly call Notepad to open the Result.txt file with the Path in the call as well.
 
 I want to thank [Lee_Dailey](https://www.reddit.com/user/Lee_Dailey) for dissecting my code and helping me to see my code thru his eyes. It was a great experience overall.
-
