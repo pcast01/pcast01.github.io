@@ -6,10 +6,9 @@ header:
         image: /assets/images/poshBlack.jpg
         teaser: /assets/images/poshBlack.jpg
 
-tags: [PowerShell, Excel]
+tags: [PowerShell]
 
 ---
 {{ page.date | date: '%B %d, %Y' }}
 
-## Create PowerShell Script to open and run Macro in Excel
-
+# Create PowerShell Script to open and run Macro in Excel
