@@ -1,4 +1,4 @@
-﻿---
+---
 layout: single
 title: Row Deleter Pro
 excerpt: ""
