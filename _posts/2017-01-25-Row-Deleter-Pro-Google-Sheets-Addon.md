@@ -2,7 +2,7 @@
 layout: single
 title: Row Deleter Pro
 excerpt: ""
-tags: [Google Script],[Google Sheets],[Google Add-On]
+tags: [Google Add-On]
 
 ---
 

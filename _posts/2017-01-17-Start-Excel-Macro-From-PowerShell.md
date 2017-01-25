@@ -1,6 +1,6 @@
 ﻿---
 layout: single
-title: Updated-Custom Windows File and Pattern Search in PowerShell script
+title: PowerShell with Microsoft Excel Macro
 excerpt: ""
 tags: [PowerShell],[Excel]
 
