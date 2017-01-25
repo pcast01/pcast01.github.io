@@ -5,7 +5,6 @@ excerpt: ""
 tags: [Google Add-On]
 
 ---
-
 {{ page.date | date: '%B %d, %Y' }}
 
 ## Row Deleter Pro Help
