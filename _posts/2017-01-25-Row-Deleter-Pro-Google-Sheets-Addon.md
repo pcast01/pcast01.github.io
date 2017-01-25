@@ -1,10 +1,11 @@
 ﻿---
 layout: single
-title: Row Delete Pro
+title: Row Deleter Pro
 excerpt: ""
 tags: [Google Script],[Google Sheets],[Google Add-On]
 
 ---
+
 {{ page.date | date: '%B %d, %Y' }}
 
 ## Row Deleter Pro Help
