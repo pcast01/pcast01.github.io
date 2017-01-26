@@ -36,7 +36,7 @@ Here are some good references on how to use Excel inside of PowerShell.
 
 Here is the xlsm file: <a href="{{site.url}}/assets/docs/PowershellSheet.xlsm" target="_blank">PowershellSheet.xlsm</a>
 
-Here is the ps1 file:  [PowershellExcelMacro.ps1]({{ site.url }} {% /assets/docs/PowershellExcelMacro.ps1%})
+Here is the ps1 file:  <a href="{{site.url}}/assets/docs/PowershellExcelMacro.ps1" target="_blank">PowershellExcelMacro.ps1</a>
 
 * <a href="https://blogs.technet.microsoft.com/heyscriptingguy/2006/09/08/how-can-i-use-windows-powershell-to-automate-microsoft-excel/" target="_blank">Scripting guy</a> 
 * <a href="http://ramblingcookiemonster.github.io/PSExcel-Intro/" target="_blank">Rambling Cookie Monster</a>
