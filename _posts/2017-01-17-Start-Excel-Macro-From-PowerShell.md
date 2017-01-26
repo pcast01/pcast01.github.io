@@ -34,7 +34,7 @@ This code calls creates a COM Excel object and then opens an Excel Macro called 
 
 Here are some good references on how to use Excel inside of PowerShell.
 
-Here is the xlsm file: <a href="{{site.github.url}}/assets/docs/PowershellSheet.xlsm" target="_blank">PowershellSheet.xlsm</a>
+Here is the xlsm file: <a href="{{site.url}}/assets/docs/PowershellSheet.xlsm" target="_blank">PowershellSheet.xlsm</a>
 
 Here is the ps1 file:  [PowershellExcelMacro.ps1]({{ site.url }} {% /assets/docs/PowershellExcelMacro.ps1%})
 
