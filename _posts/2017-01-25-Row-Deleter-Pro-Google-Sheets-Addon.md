@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Row Deleter Pro
+title: Google Sheets Add-On Row Deleter Pro
 excerpt: ""
 tags: [Google Add-On]
 
