@@ -2,7 +2,7 @@
 layout: single
 author_profile: true
 permalink: /miprocessor/
-excerpt: Send as HTML
+excerpt: M-I Processor
 header:
-        image: /assets/images/logoDOAv6.png
+        overlay_image: /assets/images/aboutPic.jpg
 ---
