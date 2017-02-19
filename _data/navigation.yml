@@ -4,3 +4,7 @@ main:
     url: /about/
   - title: "Fiverr Profile"
     url: /fiverr/
+  - title: "Send as HTML"
+    url: /sendashtml/
+  - title: "M-I Processor"
+    url: /miprocessor/
