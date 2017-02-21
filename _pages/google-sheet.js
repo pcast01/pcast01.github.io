@@ -24,7 +24,7 @@ $("#foo").submit(function(event){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "SCRIPT URL GOES HERE",
+        url: "https://script.google.com/macros/s/AKfycbz7HmYM_aItabLJRDS_p82k2oWfgNPpOOGhG4F6_BepTZio0gOa/exec",
         type: "post",
         data: serializedData
     });
