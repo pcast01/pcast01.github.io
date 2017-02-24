@@ -8,5 +8,3 @@ main:
     url: /sendashtml/
   - title: "M-I Processor"
     url: /miprocessor/
-  - title: "form"
-    url: /index/
