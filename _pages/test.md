@@ -2,6 +2,7 @@
 layout: single
 title: Test
 excerpt: ""
+permalink: /test/
 header: 
         image: /assets/images/poshBlack.jpg
         teaser: /assets/images/poshBlack.jpg
