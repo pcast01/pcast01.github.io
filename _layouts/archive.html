@@ -22,3 +22,12 @@ layout: default
     {{ content }}
   </div>
 </div>
+<!-- Stuff for jsarr tag  -->
+
+    {% for js in page.jsarr %}
+      <script type="text/javascript">
+         {% include {{ js }} %}
+      </script>
+    {% endfor %}
+
+    <!-- End Stuff for jsarr tag  -->
