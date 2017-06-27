@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Essential javascript learning
+title: How I learn JavaScript
 excerpt: ""
 tags: [javascript]
 
