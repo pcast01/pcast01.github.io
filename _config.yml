@@ -13,7 +13,7 @@ description              : "A blog about coding mostly C#, Powershell, and javas
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "pcast01/pcast01.github.io"
-teaser                   : "/assets/images/poshBlue.jpg " #500x300.png" 
+teaser                   :  #500x300.png" 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
