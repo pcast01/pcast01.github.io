@@ -175,7 +175,7 @@ Custom functions can use these services offered by Google. Some are easier to co
 
 ### Summary
 
-Creating a custom function will give you flexibility to create whatever you want in Google Sheets and its a powerful tool to help you customize your use of Google Sheets using javascript and all its power.
+Creating a custom function will give you flexibility to create whatever you want in Google Sheets and its a powerful tool to help you customize your use of javascript and all its power.
 
 * If you have any questions feel free to comment below or even contact me from any links on the sidebar.
 
