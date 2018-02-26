@@ -4,7 +4,7 @@ title: Problem solving JavaScript's Reduce function - just one of many use cases
 excerpt: ""
 header: 
 
-tags: [Javascript]
+tags: [javascript]
 
 ---
 {{ page.date | date: '%B %d, %Y' }}
