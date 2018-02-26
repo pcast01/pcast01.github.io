@@ -1,3 +1,13 @@
+---
+layout: single
+title: Problem solving JavaScript's Reduce function - just one of many use cases to utilize Reduce
+excerpt: ""
+header: 
+
+tags: [Javascript]
+
+---
+{{ page.date | date: '%B %d, %Y' }}
 # Problem solving JavaScript's Reduce function - just one of many use cases to utilize Reduce
 
 Problem: Use one array and [.reduce() function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce).
