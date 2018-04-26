@@ -6,6 +6,7 @@ header:
         overlay_image: /assets/images/aboutPic.jpg
 tags: [Avengers, Marvel]
 ---
+{{ page.date | date: '%B %d, %Y' }}
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript">
