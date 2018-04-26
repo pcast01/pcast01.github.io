@@ -69,7 +69,7 @@ tags: [Avengers, Marvel]
 }
 </style>
 
-<a href="#" onclick="toggleAll();" class="icon fa-toggle-off">Show</a><br />
+<a href="#" onclick="toggleAll();return false;" class="icon fa-toggle-off">Show</a><br />
 
 1. <div>The <a href="http://marvelcinematicuniverse.wikia.com/wiki/Collector" target="_blank">Collector</a> is a mysterious hoarder of rare artifacts, plants and one or two easter eggs. Which Marvel character does he have in his vault?<br/><i class="arrow-alt-circle-right"></i><a href="#" onclick="toggle_visibility('1',this);return false;">Click here for answer</a><div id="1" style="display: none;background-color: lightblue;"><a href="http://marvel.com/universe/Howard_the_Duck" target="_blank">Howard the Duck</a></div></div>
 
