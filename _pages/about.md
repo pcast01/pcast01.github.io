@@ -15,10 +15,10 @@ I have a Bachelors in Computer Science and have pursued knowledge of technology 
 ### Systems Analyst/Web Developer at United States Department of Defense
 _August 2010 - Present (8 years+)_
 
-I am Microsoft .Net Full Stack applications developer for G-6 in AMEDD Medical School at Fort Sam
+I am Microsoft .Net Full Stack/React applications developer for G-6 in AMEDD Medical School at Fort Sam
 Houston. 
 
-Technologies used: Asp.Net 4.5, React.js 16.0, Web Api 1.0, Powershell 5.0, C# 7.0, VB.Net 15.0, Visual Studio 2017, VS Code 1.22.1, SQL Server 2012, Node 9.5.0, 
+Technologies used: Asp.Net 4.5+, React.js 16.4.2, Web Api 1.0, Powershell 5.0+, Javascript(ECMAScript 2018), C# 7.0, VB.Net 15.0, Visual Studio 2017, VS Code 1.24.1, SQL Server 2016, Node 9.5.0+.
 
 ### Computer Technician at Decypher
 _November 2009 - August 2010 (10 months)_
